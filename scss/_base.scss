@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(../img/fondos/istockphoto-1203841583-612x612.jpg);
+    background-repeat: repeat;
+}
+
+p{
+    color: darkslategray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-family: $font-alternative;
+}

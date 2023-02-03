@@ -1,0 +1,14 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    @media (min-width: 460px) {
+        width: 80%;
+    }
+    @media (min-width: 760px) {
+        width: 90%;
+    }   
+}
+
+.wimage{
+    width: 100%;
+}

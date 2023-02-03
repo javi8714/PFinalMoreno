@@ -1,0 +1,32 @@
+#botonera{
+    background-color: rgb(187, 155, 50);
+    svg{
+        fill: rgb(12, 11, 9);
+    }
+}
+
+#botonera ul li a{
+    color: black;
+    font-size: 1.2em; 
+    /*Subrayado animado*/
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+#botonera ul li a:hover{
+    color: rgb(14, 11, 11);
+    font-weight: 600;
+    /*Subrayado animado*/
+    background-size: 100% 2px;
+}
+
+#botonera img{
+    width: 100px;
+}
+
+#botonera svg{
+    fill: rgb(12, 11, 9);
+}
